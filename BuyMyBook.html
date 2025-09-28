@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy My Book - Rules for the Cosmic Road</title>
+    <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif; 
+            line-height: 1.6; 
+            padding: 2rem; 
+            background: #f7f9fc; 
+            color: #222; 
+            min-height: 100vh; 
+        }
+        /* Background image */
+        html, body { height: 100%; }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-image: url("./images/cosmos.jpg");
+            background-size: cover;
+            background-position: center center;
+            filter: brightness(0.55) saturate(0.9);
+            z-index: -1;
+        }
+        .card { 
+            max-width: 700px; 
+            margin: 2rem auto; 
+            background: rgba(255,255,255,0.95); 
+            padding: 2rem 2.5rem; 
+            border-radius: 8px; 
+            box-shadow: 0 6px 18px rgba(20,30,80,0.12); 
+            text-align: center;
+        }
+        h1 { 
+            margin-top: 0; 
+            color: #0066cc;
+            font-size: 2.5rem;
+        }
+        .book-title {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem 0 2rem;
+            font-size: 1.5rem;
+        }
+        .buy-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #FF9900;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(255, 153, 0, 0.3);
+        }
+        .buy-button:hover { 
+            background: #E68900; 
+            color: #fff; 
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(255, 153, 0, 0.4);
+        }
+        .buy-button:visited { color: #fff; }
+        .buy-button:active { color: #fff; }
+        
+        .description {
+            margin: 2rem 0;
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.75rem 1.5rem;
+            background: #0066cc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover { 
+            background: #0055a3; 
+            color: #fff; 
+        }
+        .back-button:visited { color: #fff; }
+        .back-button:active { color: #fff; }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <h1>Buy My Book</h1>
+        
+        <div class="book-title">
+            "Rules for the Cosmic Road"
+        </div>
+        
+        <div class="description">
+            <p>Ready to embark on your cosmic journey? Get your copy of "Rules for the Cosmic Road" and discover the wisdom needed to navigate life's vast expanse.</p>
+        </div>
+        
+        <a class="buy-button" 
+           href="https://www.amazon.com/12-Rules-Road-Life-Comprehensive-ebook/dp/B0FQPSDYC4/ref=sr_1_1?crid=4XB2XXWMIS16&dib=eyJ2IjoiMSJ9.feQ9yepLTDFZOy-thuIMvXOOWN1lAA2KDXupRI1ogGEsvmGtH8EUuYsg1VxkljEURs3hw-iIwp6QNL3rkK4y814WXWYhIa2FWDkb6IxNq3ConZtpIVzILEafgXppX6yC3LPLyMjvUA-pEIccVDnvz_oCE9S3CdU0A3DN-hc2zhalVNx0daznuiGJb2CY4h4ypVF6JsdNSrsVt-UZ65cMZYvjLvrnaSFmf1JIvsK-FCc.Q3KvFiMJ3uA4HeORukW1xBT4l4tycI7M_HgfRWSaW6Y&dib_tag=se&keywords=12+rules+for+the+road+of+life&qid=1759087524&sprefix=12+rules+for+the+road+of+life%2Caps%2C145&sr=8-1" 
+           target="_blank" 
+           title="Purchase on Amazon">
+            🛒 Buy Rules for the Cosmic Road
+        </a>
+        
+        <div class="description">
+            <p><em>Available now on Amazon as an eBook</em></p>
+        </div>
+        
+        <a class="back-button" href="AboutMe.html" title="Back to About Me">← Back to About Me</a>
+    </main>
+</body>
+</html>
